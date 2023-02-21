@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+._select_Course {
+  font-family: "Roboto Slab", serif !important;
+  width: 84%;
+  font-size: 12px;
+  border: 1px solid #98189a;
+  display: block;
+  margin-top: 20px !important;
+  margin: auto auto 10px;
+  border-radius: 5px;
+  height: 40px;
+}
+#Coursedisply{
+  display: none;
+}
+#selectcourses{
+  display: none;
+}
+._select_Course,
+._select_Course option {
+  font-family: "Roboto Slab", serif !important;
+  color: #98189a;
+  outline: none !important;
+  background-color: #fff !important;
+}
+._inputDiv {
+  width: 100%;
+  margin-top: 20px;
+  font-family: "Roboto Slab", serif !important;
+}
+#select {
+  color: gray;
+}
+._upload {
+  width: 80%;
+  border: 1px solid #98189a;
+  border-radius: 5px;
+  outline: none;
+  color: #98189a;
+  text-align: left;
+  font-size: 12px;
+  margin: auto auto -5px;
+  padding: 10px;
+  font-family: "Roboto Slab", serif !important;
+  margin-top: 18px;
+}
+/* .e {
+  font-family: "Roboto Slab", serif !important;
+} */
+label {
+  display: block !important;
+  font-family: "Roboto Slab", serif !important;
+  margin: 0 !important;
+}
+input {
+  overflow: visible;
+  font-family: "Roboto Slab", serif !important;
+}
+input[type="file"] {
+  display: none;
+}
+.linkname2 {
+  padding: 20px 60px;
+  width: 83%;
+  display: flex;
+  font-family: "Roboto Slab", serif !important;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.a {
+  font-family: "Roboto Slab", serif !important;
+}
+.btn-primary-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.btnmain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 84%;
+  border-bottom: 1px solid #98189a;
+}
+.form,
+.selectForm {
+  width: 50%;
+  background-color: #fff;
+  padding: 10px 1px;
+  color: #98189a;
+  /* font-weight: bold; */
+  font-size: 20px;
+  font-family: "Roboto Slab", serif !important;
+  border: 1px solid #fff !important;
+}
+.form:hover {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid #98189a !important;
+  border-bottom: none;
+  font-family: "Roboto Slab", serif !important;
+  color: #293b90;
+}
+.selectForm:hover {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid #98189a !important;
+  border-bottom: none;
+  color: #293b90;
+  font-family: "Roboto Slab", serif !important;
+}
+.selectForm {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid rgb(177, 176, 176) !important;
+  border-bottom: none;
+}
+.aaaa {
+  font-family: "Roboto Slab", serif !important;
+}

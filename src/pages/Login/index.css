@@ -1,0 +1,182 @@
+.maindivlogin {
+  width: 100%;
+  background-color: #fae6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  height: auto;
+  font-family: "Bree Serif", serif !important;
+}
+.mainlogindiv {
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 40%;
+  text-align: center !important;
+  background-color: #fff;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 13px -7px #000, 5px 5px 8px 5px transparent;
+}
+.mm {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.m {
+  width: 84%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.m > p {
+  font-size: 10px;
+  text-align: left;
+  width: 80%;
+  color: grey;
+  padding-top: 10px;
+  margin-left: 5px;
+}
+
+.mainlogindiv-1 {
+  background: linear-gradient(90deg, #293b90, #98189a) !important;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 20px;
+}
+.mainlogindiv-1>p{
+  font-family: "Roboto Slab", serif !important;
+}
+.imglogoiskillers {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imglogoiskillers > img {
+  width: 30%;
+  margin: 0 0 1.45rem;
+}
+.n {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+.n>input{
+  margin-left: -5px;
+}
+.nnn{
+  width: 85%;
+}
+.nnn>p{
+  font-size: 12px;
+  margin-left: 10px;
+}
+.nn{
+  width: 100%;
+  text-align: left;
+  display: flex;
+justify-content: center;
+  align-items: center;
+}
+._laptopTxt{
+  color: #000;
+  margin-left: 5px;
+  font-family: "Roboto Slab", serif !important;
+}
+._inputDiv {
+  width: 100%;
+  margin-top: 20px;
+}
+._input {
+  padding: 2%;
+}
+
+._input {
+  width: 80%;
+  border: 1px solid #98189a;
+  border-radius: 5px;
+  outline: none;
+  color: #98189a;
+  font-size: 12px !important;
+}
+._input::placeholder {
+  color: #98189a;
+}
+.linkname {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.linkname1 {
+  width: 88%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.btndivlogin {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+._text {
+  font-family: "Roboto Slab", serif !important;
+  color: #98189a;
+  padding: 10px;
+  cursor: pointer;
+}
+.a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn {
+  width: 40%;
+  border: none;
+  font-size: large;
+  padding: 8px;
+  border-radius: 50px;
+  margin-top: 15px;
+  outline: none !important;
+  box-shadow: 0 4px 2px -2px grey;
+  background: linear-gradient(90deg, #293b90, #98189a) !important;
+  color: #fff;
+  font-family: "Roboto Slab", serif !important;
+  cursor: pointer;
+}
+@media screen and (max-width: 1150px) {
+  .mainlogindiv {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .mainlogindiv {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainlogindiv {
+    width: 70%;
+    margin: 30px 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .mainlogindiv {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainlogindiv {
+    width: 85%;
+  }
+}

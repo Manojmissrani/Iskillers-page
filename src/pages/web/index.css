@@ -1,0 +1,263 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+*{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+.weblogo {
+  width: 100%;
+  margin-top: 60px;
+}
+.main-header {
+  width: 100%;
+}
+.course-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.back{
+  background-color: #fae6ff;
+}
+.main-header-1 {
+  padding: 90px 130px;
+}
+span {
+  color: #98189a;
+}
+.course-heading {
+  font-weight: 1000;
+  font-size: 5rem;
+  margin-right: 130px;
+}
+.bottonline {
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(100deg, #293b90, #98189a, #fae6ff);
+  border-image-slice: 1;
+  width: 200px;
+  margin-top: -10px;
+}
+.h {
+  margin-left: 5px;
+}
+.note {
+  color: red;
+  margin-top: 120px;
+}
+.table-main {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.td {
+  width: 49%;
+  padding: 15px;
+  margin: 10px;
+  background-color: #f6f8fa;
+}
+.td > p {
+  font-size: x-large;
+  font-weight: bolder;
+}
+.applybuttondiv {
+  margin-top: 40px;
+}
+.applybuttondiv > button {
+  background: linear-gradient(90deg, #9ba6dc, #98189a) !important;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  padding: 10px 55px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  outline: none !important;
+  font-size: large;
+}
+
+.aboutmain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.aboutmessage {
+  padding: 30px;
+  padding-left: 20px;
+}
+.aboutline {
+  margin-top: 10px;
+}
+.imgdiv {
+  width: 40%;
+}
+.aboutheading {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.imgabout {
+  width: 100%;
+}
+.aboutmessage {
+  font-size: 17px;
+}
+
+.learnmaindev {
+  margin-top: 100px;
+}
+.learnd1 {
+  margin-left: 50px;
+  width: 100%;
+}
+.learnh1 {
+  font-size: 70px;
+  font-weight: bolder;
+}
+.learn12 {
+  margin-top: 100px;
+}
+.learn2 {
+  margin-top: 70px;
+}
+.leanrline2 {
+  margin-top: 5px;
+}
+.learnmaindev > div > h2 {
+  font-size: 27px;
+  font-weight: 700;
+}
+.bottonnavbar {
+  width: 100%;
+}
+.botton-1 {
+  padding: 20px 130px;
+  background: linear-gradient(90deg, #293b90, #98189a) !important;
+}
+.botton-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.botton-2 > div {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+.botton-2 > div > h3 {
+  color: white;
+  margin-right: 5px;
+}
+.botton-2 > div > p {
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: justify ;
+  opacity: .7;
+  word-wrap: break-word;
+  font-kerning: normal;
+  color: #fff;
+}
+.icon {
+  width: 25px;
+  margin: 3px;
+  border: 20px !important;
+  color: white !important ;
+}
+.icons {
+  width: 30px;
+  margin-right: 10px;
+}
+.contact {
+  margin-top: 15px;
+  display: flex;
+  opacity: 0.7;
+  color: #fff;
+  align-items: center;
+}
+.iconstel {
+  margin-left: 5px;
+  margin-right: 10px;
+  width: 24px;
+}
+.iskillerlink {
+  padding: 20px 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #933794, #293b90) !important;
+}
+.iskillerlink > p {
+  color: white;
+}
+.iskillers {
+  color: #007bff;
+}
+p{
+  line-height: 1.5 !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .div {
+    display: none !important;
+  }
+  .botton-2 > div {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .aboutmain{
+    display: flex;
+    flex-direction: column;
+  }
+  .imgdiv {
+    width: 100%;
+  }
+  .main-header-1 {
+    padding: 40px 70px;
+  }
+.aboutheading{
+  width: 100% !important;
+}
+.botton-1{
+ padding: 20px 70px;
+}
+}
+@media screen and (max-width: 820px) {
+  .div {
+    display: none;
+  }
+  .main-header-1{
+    padding: 20px 35px;
+  }
+  .td>p{
+    font-size: large;
+  }
+  .botton-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .botton-2 > div {
+    width: 100%;
+  }
+  .botton-1{
+ padding: 10px 30px;
+  }
+  .iskillerlink{
+    padding: 20px ;
+  }
+}

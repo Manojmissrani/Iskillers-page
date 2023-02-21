@@ -1,0 +1,21 @@
+.fiftydis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.fiftydiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f6f8fa;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.fiftydiv>span{
+    color: red;
+    margin-right: 8px;
+}

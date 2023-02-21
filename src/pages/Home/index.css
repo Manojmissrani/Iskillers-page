@@ -1,0 +1,13 @@
+.uldivimage{
+    display: flex;
+    align-items: center;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.uldivimage>img{
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 30px;
+    /* margin-bottom: 30px; */
+}

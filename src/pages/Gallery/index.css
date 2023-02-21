@@ -1,0 +1,27 @@
+.imagesdivmain{
+    padding: 40px;
+}
+.divimages1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.divimages1>img{
+    width: 33.1%;
+    margin:1px;
+    height: 300px;
+}
+.maindiv1{
+    width: 100%;
+}
+.divimages2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+.divimages2>img{
+    height: 300px;
+    margin:1px;
+    width: 24.8%;
+}
