@@ -5,7 +5,8 @@ import RouterNavigation from "./config/router";
 const App = () => {
   return (
     <div>
-      <RouterNavigation />
+    <h1>hi</h1>
+      {/* <RouterNavigation /> */}
     </div>
   );
 };
